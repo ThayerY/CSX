@@ -9,6 +9,8 @@
  * previous challenge.
  */
 //**************************************************************************
+https://www.youtube.com/watch?v=d47lDekXf4E&ab_channel=Codesmith
+//************************************************************************* 
 
 function eitherCallback(callback1, callback2) {
   // ADD CODE HERE
