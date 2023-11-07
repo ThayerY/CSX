@@ -43,7 +43,11 @@ an initial value and returns a single value.
 const reduce = (arr, cb, initialValue) =>
   arr.reduce((acc, currV, i, ar) => (currV = ar[i], acc = cb(acc, currV), acc), initialValue)
 
+
 // Uncomment these to check your work!
 const nums = [4, 1, 3];
 const add = function (a, b) { return a + b; }
 console.log(reduce(nums, add, 0)); // should log 8
+//**************************************************************************
+
+// let nums1 = ['a', 'a', 'a', 'b', 'b', 'c', 'c', 'c'].reduce((ac, cur) => (ac[cur] = (ac[cur] || 0) + 1, ac), {})
