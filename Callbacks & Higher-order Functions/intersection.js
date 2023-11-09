@@ -4,8 +4,12 @@
  * all of the inputs. BONUS - Use reduce!
  */
 
-// ADD CODE HERE
+https://www.youtube.com/watch?v=Xm-rT8ncaTc&ab_channel=Codesmith
+
+
 // const intersection = ar => ar.reduce((ac, cur) => ac.filter(e => cur.includes(e)))
+
+//************************************************************************* 
 
 function intersection(arrays) {
   // Start with the first array as the reference
